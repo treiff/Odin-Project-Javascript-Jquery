@@ -1,4 +1,13 @@
-p {
-	color: red;
-	margin-left: 50px;
+#container {
+	border: solid 1px red;
+	height: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
+
+
+.sameDiv {
+	border:solid 1px blue;
+	padding: 10px;
 }

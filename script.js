@@ -1,3 +1,7 @@
 $(document).ready(function() {
-	$("#msgid").html("This is Hello World by JQuery");
+
+	for (var i = 0; i <=15; i++) {
+		$('<div />').addClass('sameDiv').attr('id','div'+i).appendTo('#container');
+	}
 });
+
