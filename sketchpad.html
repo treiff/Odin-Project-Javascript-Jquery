@@ -11,11 +11,11 @@
 				<p>Welcome to etch-a-sketch thingy</p>
 			</div>
 			<div id="buttonContainer">
-				<button type="button" id="simple">Simple Squares</button>
-				<button type="button" id="trails">Trailing Squares</button>
-				<button type="button" id="random">Random Squares</button>
+				<button type="button" id="simple" onclick="setGrid();">Simple Squares</button>
+				<button type="button" id="trails" onclick="defineGrid();">Trailing Squares</button>
+				<button type="button" id="random" onclick="defineGrid();">Random Squares</button>
 			</div>
-				<div id="grid"></div>
+				<div class="square"></div>
 		</div>
 
 	<script src="jquery.js"></script>

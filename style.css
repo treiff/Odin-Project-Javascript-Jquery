@@ -21,10 +21,21 @@
 	width: 960px;
 	margin: 0 auto;
 	text-align: center;
+	clear: both;
 }
 
 
 .sameDiv {
 	border:solid 1px blue;
 	padding: 10px;
+}
+
+.square {
+	background-color: green;
+	float: left;
+	border: solid 1px black;
+}
+
+.linebreak {
+	clear: both;
 }
